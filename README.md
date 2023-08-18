@@ -19,27 +19,27 @@ Proxy File Content (file Parameter): When the file parameter is provided in the 
 
 Fetching Content: The fetchContent($url) function uses cURL to retrieve the content of a given URL. It follows redirects and returns the fetched content.
 
-Updating URLs: The updateURLs($content, $baseUrl) function parses the fetched content using DOMDocument. It iterates through various HTML elements (images, stylesheets, scripts, and anchors) and updates their URLs to be proxied through the proxy.php script.
+Updating URLs: The updateURLs($content, $baseUrl) function parses the fetched content using DOMDocument. It iterates through various HTML elements (images, stylesheets, scripts, and anchors) and updates their URLs to be proxied through the index.php script.
 
 Resolving URLs: The resolveUrl($baseUrl, $url) function resolves relative URLs and handles different URL formats such as //example.com, /path/file.ext, ../folder/file.ext, ./file.ext, and fragment URLs (#section).
 
 Content Types: The getContentType($fileExtension) function returns the appropriate Content-Type header based on the file extension. It supports common MIME types for CSS, JavaScript, images (JPG, JPEG, PNG, GIF), and falls back to text/plain for unknown types.
 
 ## Usage
-To use **BlueProxy**, you need to include the proxy.php script in your web server's directory and access it through your web browser. You can provide either the url or file parameter in the query string to proxy the content from a remote URL or file URL, respectively.
+To use **BlueProxy**, you need to include the index.php script in your web server's directory and access it through your web browser. You can provide either the url or file parameter in the query string to proxy the content from a remote URL or file URL, respectively.
 
 ## Examples
 Proxying a URL:
 
 To proxy the content of a remote URL, append the url parameter to the proxy script's URL:
 
-http://your-domain.com/proxy.php?url=https://example.com
+http://your-domain.com/index.php?url=https://example.com
 
 Proxying a File URL:
 
 To proxy the content of a file URL, append the file parameter to the proxy script's URL:
 
-http://your-domain.com/proxy.php?file=https://example.com/path/to/file.css
+http://your-domain.com/index.php?file=https://example.com/path/to/file.css
 
 ## Customization
 The **BlueProxy** script is designed to be a starting point for building web proxies or content transformation tools. You can extend and customize the script according to your needs. Here are a few customization options:
