@@ -1,5 +1,6 @@
 # BlueProxy
 **BlueProxy** is an unfinished and discontinued proxy written in PHP.
+
 **BlueProxy** has no affiliation with **Blue Proxy: proxy browser VPN**
 
 **BlueProxy** is a PHP-based web proxy script that allows you to fetch and display content from remote URLs while acting as an intermediary. This script enables you to proxy web content, including HTML, images, stylesheets, and scripts, and serves as a starting point for creating web proxies or content transformation tools.
