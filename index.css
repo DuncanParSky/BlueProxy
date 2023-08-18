@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%) no-repeat center center fixed;
+}
+input {
+    text-align: center
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+button {
+  margin: 10px;
+}
