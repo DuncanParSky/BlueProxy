@@ -55,6 +55,8 @@ Security Considerations: Keep in mind that a web proxy can be used to bypass sec
 
 Note: This documentation is intended as a guide and starting point for understanding and using the **BlueProxy** script. It's recommended to review and test the code thoroughly before deploying it in a production environment.
 
+**BlueProxy does not work well when deployed on services like Replit. I'd highly recommend hosting it yourself on your own physical or virtual machine.**
+
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/DuncanParSky/BlueProxy"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://replit.com/github/DuncanParSky/BlueProxy"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
 <a target="_blank" href="https://glitch.com/edit/#!/import/github/DuncanParSky/BlueProxy"><img alt="Remix on Glitch" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg"></a>
